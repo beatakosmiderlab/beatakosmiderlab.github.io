@@ -7,7 +7,9 @@
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
         .nav { text-align: center; padding: 10px; background-color: #333; }
         .nav a { color: white; margin: 0 15px; text-decoration: none; }
-        .container { max-width: 800px; margin: 20px auto; padding: 0 20px; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 0 20px; }
+        .member { display: inline-block; width: 200px; margin: 15px; text-align: center; vertical-align: top; }
+        .member img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; }
         .footer { text-align: center; padding: 20px; color: #777; border-top: 1px solid #eee; margin-top: 40px; }
     </style>
 </head>
@@ -22,15 +24,27 @@
     </div>
     <div class="container">
         <h1>Our Team</h1>
-        <h2>Principal Investigator</h2>
-        <p><strong>Beata Kosmider, Ph.D.</strong> - Dr. Kosmider leads the lab's research program.</p>
         
-        <h2>Current Members</h2>
-        <ul>
-            <li>Postdoctoral Fellows: [Names]</li>
-            <li>Graduate Students: [Names]</li>
-            <li>Research Assistants: [Names]</li>
-        </ul>
+        <h2>Principal Investigator</h2>
+        <div class="member">
+            <img src="images/beata.jpg" alt="Dr. Beata Kosmider">
+            <h3>Beata Kosmider, Ph.D.</h3>
+            <p>Principal Investigator</p>
+        </div>
+        
+        <h2>Postdoctoral Fellows</h2>
+        <div class="member">
+            <img src="images/postdoc1.jpg" alt="Postdoc Name">
+            <h3>Name Here</h3>
+            <p>Postdoctoral Fellow</p>
+        </div>
+        
+        <h2>Graduate Students</h2>
+        <div class="member">
+            <img src="images/student1.jpg" alt="Student Name">
+            <h3>Name Here</h3>
+            <p>Ph.D. Student</p>
+        </div>
     </div>
     <div class="footer">
         <p>© 2026 Beata Kosmider Lab</p>
