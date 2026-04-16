@@ -41,8 +41,16 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
     padding: 15px 20px;
     flex: 1 1 200px;
     border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: block;
 }
-
+.highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
 .highlight-card h3 {
     margin-top: 0;
     color: #1a1a1a;
