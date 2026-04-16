@@ -228,33 +228,9 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 
 
 /* 新闻区域样式优化 */
+
 .news-section {
-    background-color: #f8f9fa;
-    padding: 20px 30px;
-    border-radius: 16px;
     margin-top: 20px;
-}
-.news-section ul {
-    list-style: none;
-    padding: 0;
-}
-.news-section li {
-    padding: 15px 0;
-    border-bottom: 1px solid #e0e0e0;
-}
-.news-section li:last-child {
-    border-bottom: none;
-}
-.news-date {
-    display: inline-block;
-    width: 100px;
-    font-weight: bold;
-    color: #0366d6;
-}
-.news-title {
-    display: inline-block;
-    width: calc(100% - 110px);
-    vertical-align: top;
 }
 @media (max-width: 768px) {
     .news-date, .news-title {
