@@ -107,13 +107,13 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 /* team style - for team content */
 .team-member {
     display: flex;
-    gap: 30px;
-    margin-bottom: 40px;
+    gap: 40px;
+    margin-bottom: 50px;
     align-items: flex-start;
 }
 .team-photo {
     flex-shrink: 0;
-    width: 180px;
+    width: 250px;
 }
 .team-photo img {
     width: 100%;
@@ -127,11 +127,16 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 .team-bio h3 {
     margin: 0 0 5px 0;
     color: #1a1a1a;
+    font-size: 24px;
 }
 .team-bio .title {
     color: #0366d6;
     font-weight: bold;
-    margin: 0 0 10px 0;
+    margin: 0 0 15px 0;
+    font-size: 18px;
+}
+.team-bio p {
+    line-height: 1.6;
 }
 @media (max-width: 768px) {
     .team-member {
@@ -140,6 +145,6 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
         text-align: center;
     }
     .team-photo {
-        width: 150px;
+        width: 200px;
     }
 }
