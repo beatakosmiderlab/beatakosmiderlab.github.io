@@ -175,8 +175,8 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 
 /* publication - for papers content */
 .publication {
-    margin-bottom: 25px;
-    padding-bottom: 20px;
+    margin-bottom: 35px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #eee;
 }
 .pub-links {
