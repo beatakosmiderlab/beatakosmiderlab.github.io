@@ -20,7 +20,7 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 .publication { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #ddd; }
 .title { font-weight: bold; font-size: 18px; }
 .authors { color: #555; margin: 5px 0; }
-.journal { color: #777; font-style: normal; font-weight: bold;}
+.journal { color: #777; font-style: normal; }
 .year { color: #0366d6; font-weight: bold; }
 .footer { 
     text-align: center; 
