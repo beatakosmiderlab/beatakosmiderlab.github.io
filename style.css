@@ -60,10 +60,12 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 /* Lab Banner */
 .hero-image {
     width: 100%;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 .hero-image img {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
 }
